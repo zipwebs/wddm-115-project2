@@ -1521,3 +1521,91 @@ video{
 [hidden]{
     display:none
 }
+
+a{
+    background-color:transparent
+}
+a:active,a:hover{
+    outline:0
+}
+h1{
+    margin:.67em 0;
+    font-size:2em
+}
+mark{
+    color:#000;
+    background:#ff0
+}
+small{
+    font-size:80%
+}
+img{
+    border:0
+}
+svg:not(:root){
+    overflow:hidden
+}
+code{
+    font-family:monospace,monospace;
+    font-size:1em
+}
+
+
+/* Begin Javascript Buttons*/
+.white-background {
+    background-color: white;
+}
+
+.blue-background {
+    background-color: #b7e7ff;
+    color: white!important; /* Change text color to white for visibility */
+}
+
+.styled-header{
+	font-size:50px!important;
+	color:orange;
+	font-family: "Dancing Script";
+}
+
+.center-button{
+	display: block;
+    margin: 5px auto;
+}
+
+/* End Javascript Buttons*/
+
+
+/*Begin Profiles From JSON Project*/
+
+.inner-profile-item{
+    float: left;
+}
+
+#profilesContainer{
+
+}
+
+#profilesContainer .profile{
+
+}
+
+.profile-body{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 15px;
+    text-align: center;
+    min-height: 385px;
+}
+
+.profile-body:hover{
+    box-shadow: 1px 1px 5px rgb(95 87 87 / 27%);
+}
+
+.profile-body img.dp{
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+}
+/*End Profiles*/
