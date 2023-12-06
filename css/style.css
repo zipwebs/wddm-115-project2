@@ -584,3 +584,46 @@ iframe{
     line-height:1.3333333;
     border-radius:6px
 }
+
+/*.collapse{
+    display:none
+}
+.collapse.in{
+    display:block
+}*/
+.open>a{
+    outline:0
+}
+.nav{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.nav>li{
+    position:relative;
+    display:block;
+    font-family:Roboto,sans-serif
+}
+.nav>li>a{
+    font-size:16px;
+    position:relative;
+    display:block;
+    padding:8px 15px
+}
+.nav>li>a:focus,.nav>li>a:hover{
+    text-decoration:none;
+    background-color:#eee
+}
+.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{
+    background-color:#eee;
+    border-color:#337ab7
+}
+.nav>li>a>img{
+    max-width:none
+}
+.navbar{
+    position:relative;
+    min-height:50px;
+    margin-bottom:0;
+    border:1px solid transparent
+}
