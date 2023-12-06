@@ -49,8 +49,67 @@
 
 </head>
 
-</head>
 <body>
-    
+     
+	<!--begin header - The header section of a page is very important as it holds key information about the page and it's usually the area where we put our menu, logo, search bar, quick links and so on! But take a look at the structure of the menu below to see how organized they are! I'm seriously working for a 10/10 here! 😁
+	-->
+
+  <header class="header">
+    <!--Begin Bootstrap Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark btstrap navbar-fixed-top"
+      aria-label="Offcanvas navbar large">
+      <div class="container">
+        <a class="navbar-brand brand logo" href="index.html"><img src="./images/logo-light.svg?version=1" /></a>
+        <button class="navbar-toggler position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
+              Offcanvas
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="hearder-form">
+                    <form class="d-flex" role="search">
+                        <input id="tags" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project-1.html">Friends</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="project-2.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Travel
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Destinations</a></li>
+                  <li><a class="dropdown-item" href="#">Things To Do</a></li>
+                  <li><a class="dropdown-item" href="#">Travel Tips</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Book A Trip Today!
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Bootstrap Navbar-->
+<!--end header -->
 </body>
 </html>
