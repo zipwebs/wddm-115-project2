@@ -1284,3 +1284,240 @@ h3.blog-title a:hover{
     -o-transition:all .25s ease-in-out;
     transition:all .25s ease-in-out
 }
+
+.partner-logos img.partner-logo:hover{
+    opacity:.8
+}
+.navbar-header .logo img{
+    max-width:170px;
+    width:100%
+}
+header .navbar .navbar-header .navbar-brand{
+    margin-top:0
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover{
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease
+}
+.navbar-default .navbar-nav>li>a.purchase{
+    position:relative;
+    color:#fff;
+    background-color:#34b1c4;
+    border:1px solid #34b1c4;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:14px;
+    padding:0 25px;
+    font-weight:600!important;
+    letter-spacing:1px;
+    text-transform:none;
+    webkit-border-radius:5px 5px;
+    -moz-border-radius:5px 5px;
+    border-radius:5px 5px
+}
+.navbar-default .navbar-nav>li>a.purchase:hover{
+    color:#34b1c4!important;
+    background-color:transparent;
+    border:1px solid #34b1c4
+}
+.fun-facts-wrapper{
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    background:url(../images/bg-scroll.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    margin:0 auto;
+    padding:100px 0 100px 0
+}
+.fun-facts-wrapper .image-overlay{
+    background:rgba(34,34,34,.65);
+    position:absolute;
+    z-index:10;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0
+}
+.fun-facts-inside{
+    position:relative;
+    z-index:100
+}
+.fun-facts-box{
+    float:left;
+    width:19.99%;
+    padding-top:15px
+}
+.fun-facts-title{
+    font-size:16px;
+    font-weight:400;
+    color:#fff;
+    font-style:italic
+}
+.fun-facts-title span{
+    font-size:40px;
+    line-height:42px;
+    font-weight:600;
+    font-style:normal;
+    color:#fff
+}
+.fun-facts-box i{
+    font-size:44px;
+    line-height:60px;
+    color:#34b1c4
+}
+.section-testimonials{
+    position:relative;
+    background-color:#34b1c4;
+    padding:60px 0
+}
+.testimonials-wrapper{
+    position:relative;
+    max-width:960px
+}
+.testimonials-info{
+    display:inline-block;
+    padding:10px 40px 10px 0;
+    border-right:1px solid #fff
+}
+.testimonials-info img{
+    float:left;
+    margin-right:20px;
+    width:110px;
+    height:110px;
+    padding:5px 5px;
+    background-color:transparent;
+    border:1px solid #fff;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%
+}
+p.author-name{
+    float:left;
+    margin:0;
+    padding-top:30px;
+    font-size:18px;
+    line-height:26px;
+    font-weight:700;
+    color:#fff;
+    text-transform:uppercase;
+    font-family:Roboto,sans-serif
+}
+p.author-name span{
+    font-size:18px;
+    font-weight:400;
+    font-style:italic;
+    text-transform:none;
+    color:#fff;
+    font-family:'Open Sans',sans-serif
+}
+p.testimonials-text{
+    padding:20px 0 0 0;
+    font-size:20px;
+    line-height:32px;
+    font-weight:400;
+    color:#fff
+}
+.image-section{
+    width:100%;
+    position:relative;
+    z-index:100;
+    background:url(http://placehold.it/1920x1280);
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    padding:0
+}
+.image-section .image-overlay{
+    background:rgba(0,0,0,.45);
+    position:absolute;
+    z-index:10;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0
+}
+.image-section-inside{
+    position:relative;
+    z-index:100
+}
+@-webkit-keyframes sk-three-bounce{
+    0%,100%,80%{
+        -webkit-transform:scale(0);
+        transform:scale(0)
+    }
+    40%{
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+}
+@keyframes sk-three-bounce{
+    0%,100%,80%{
+        -webkit-transform:scale(0);
+        transform:scale(0)
+    }
+    40%{
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+}
+@media handheld,only screen and (max-width:800px){
+    .testimonials-info{
+        border-right:none;
+        padding:0
+    }
+    .testimonials-wrapper{
+        text-align:center
+    }
+    img.author-pic{
+        float:none;
+        margin:0
+    }
+    p.author-name{
+        float:none;
+        margin:0;
+        padding-top:20px;
+        padding-bottom:10px
+    }
+    p.testimonials-text{
+        float:none;
+        padding:10px 0 0 0;
+        font-size:18px;
+        line-height:28px
+    }
+    .fun-facts-box{
+        width:50%
+    }
+    .team-item{
+        margin-bottom:30px
+    }
+    .wrapper-inner{
+        max-width:none;
+        padding:40px 0 80px 35px
+    }
+}
+
+html{
+    font-family:'Open Sans',sans-serif;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+footer,header,main,menu,nav,section{
+    display:block
+}
+video{
+    display:inline-block;
+    vertical-align:baseline
+}
+[hidden]{
+    display:none
+}
