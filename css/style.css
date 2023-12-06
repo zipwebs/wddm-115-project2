@@ -1806,3 +1806,68 @@ p.address{
 
 /*End Responsive Fix*/
 
+
+/* Begin Header Form Fix */
+.hearder-form input{
+    width:300px;
+    }
+    
+    li.hearder-form{
+        padding:10px 15px;
+    }
+    
+    
+    
+    
+    .ui-autocomplete{
+    background-color: #fff;
+    z-index: 9999;
+    width: 295px;
+    padding:10px;
+    }
+    /* End Header Form Fix */
+    
+    
+    
+    
+    
+      .slider {
+          width: 50%;
+          margin: 100px auto;
+      }
+    
+      .slick-slide {
+        margin: 0px 20px;
+      }
+    
+      .slick-slide img {
+        width: 100%;
+      }
+    
+      .slick-prev:before,
+      .slick-next:before {
+        color: black;
+      }
+    
+    
+      .slick-slide {
+        transition: all ease-in-out .3s;
+        opacity: .2;
+      }
+      
+      .slick-active {
+        opacity: .5;
+      }
+    
+      .slick-current {
+        opacity: 1;
+      }
+    
+    
+     .hearder-form .btn{
+        border-radius: 0 4px 4px 0px!important;
+    }
+    
+    .hearder-form .form-control {
+        border-radius: 2px 0 0 2px;
+    }
