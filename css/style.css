@@ -1696,3 +1696,46 @@ button.navbar-toggler{
 }
 
 /* End - change the logo in the navbar size */
+
+
+
+/*Begin Fix Sticky Header Popup*/
+#staticBackdrop{
+    z-index: 9999
+}
+/*Ebd Fix Sticky Header Popup*/
+
+
+/* Begin - Fix for Modal Popup */
+.form-control {
+    border: 1px solid #858b93;
+    border-radius: 2px;
+}
+
+.modal-body {
+    padding:15px 25px
+}
+
+.form-control-lg {
+    padding: 1rem 1rem;}
+
+/* End - Fix for Modal Popup */
+
+/*Fix Card Body*/
+.card-main{
+    margin: 10px 15px;
+}
+
+p.address{
+    height: 50px;
+}
+
+.card h2 {
+        font-size: 20px;
+        margin:5px 0px;
+}
+.card p {
+    margin:5px 0;
+}
+/*End Fix Card Body*/
+
