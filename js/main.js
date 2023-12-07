@@ -51,3 +51,6 @@ function duplicateMe() {
 function printToConsoleSimple(){
 	console.log("Javascript is a very powerful scripting language that has solidify itself as one of the top three of the internet!");
 }
+function showAlert() {
+    alert("This is a simple alert box for WDDM - 113, which doesn't give the user a great experience. But it get the job done when needed!");
+}
