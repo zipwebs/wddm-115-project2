@@ -11,3 +11,15 @@ function toggleContent() {
 
     isUpdated = !isUpdated; // toggle the flag
 }
+
+function toggleSectionColor() {
+    const element = document.getElementById('change-bg');
+
+    if (element.classList.contains('white-background')) {
+        element.classList.remove('white-background');
+        element.classList.add('blue-background');
+    } else {
+        element.classList.remove('blue-background');
+        element.classList.add('white-background');
+    }
+}
