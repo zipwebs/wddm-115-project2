@@ -48,3 +48,6 @@ function duplicateMe() {
         buttonToDuplicate.parentNode.insertBefore(clonedButton, buttonToDuplicate.nextSibling);
     }
 }
+function printToConsoleSimple(){
+	console.log("Javascript is a very powerful scripting language that has solidify itself as one of the top three of the internet!");
+}
