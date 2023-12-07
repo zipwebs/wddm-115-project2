@@ -85,3 +85,6 @@ $( function() {
         source: availableTags
       });
     } );
+    $( function() {
+        $( "#accordion" ).accordion();
+      } );
