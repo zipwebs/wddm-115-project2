@@ -23,3 +23,14 @@ function toggleSectionColor() {
         element.classList.add('white-background');
     }
 }
+function toggleSectionHeadingDecoration() {
+    const element = document.getElementById('styled-header');
+
+    if (element.classList.contains('normal')) {
+        element.classList.remove('normal');
+        element.classList.add('styled-header');
+    } else {
+        element.classList.remove('styled-header');
+        element.classList.add('normal');
+    }
+}
