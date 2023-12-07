@@ -54,3 +54,30 @@ function printToConsoleSimple(){
 function showAlert() {
     alert("This is a simple alert box for WDDM - 113, which doesn't give the user a great experience. But it get the job done when needed!");
 }
+$( function() {
+    var availableTags = [
+      "John Doe",
+      "Jane Smith",
+      "Mike Johnson",
+      "Emily Brown",
+      "Sophie Clark",
+      "David Taylor",
+      "Robert White",
+      "Hannah Miller",
+      "Daniel Anderson",
+      "Olivia Wilson",
+      "Christopher Moore",
+      "Ella Johnson",
+      "Nathan Martin",
+      "Grace Lewis",
+      "Andrew Harris",
+      "Lily Turner",
+      "Caleb Parker",
+      "Ava Wright",
+      "Samuel Young",
+      "Mia Scott",
+      "Ethan Adams",
+      "Isabella Young",
+      "Matthew Baker",
+      "Avery Carter"      
+    ];
