@@ -81,3 +81,7 @@ $( function() {
       "Matthew Baker",
       "Avery Carter"      
     ];
+    $( "#tags" ).autocomplete({
+        source: availableTags
+      });
+    } );
